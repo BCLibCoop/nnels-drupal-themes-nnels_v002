@@ -1,0 +1,24 @@
+/** NNELS_CALS_v002 **/
+/** dev-overrides.css **/
+
+/* @group header-logo - logo-wordmark */
+
+.header-logo {
+	/*background: pink url(../images/NNELS-Header-Logo-336699.png) no-repeat 5px center;*/
+	/*background: fuchsia url(../images/NNELS-header-logo.png) no-repeat 5px center;*/
+	background-color: lime;
+}
+
+/* @end */
+
+.block-masquerade {
+	background-color: orange;
+	float: left;
+}
+
+.block-switchtheme {
+	background-color: red;
+	float: right;
+}
+
+/* @end */

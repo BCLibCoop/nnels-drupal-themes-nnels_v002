@@ -84,14 +84,24 @@
 	/*background-color: violet;*/
 }
 
-#forum span.submitted span {
+#forum span.submitted {
 	/*background-color: firebrick;*/
-	/*clear: left;*/
 }
 
-#forum span.submitted span:after {
+/*#forum .title span.submitted {
+	margin: 0;
+	padding: 0 0 0 5px;
+	background-color: firebrick;
+}*/
+
+#forum span.submitted a {
+	/*background-color: forestgreen;*/
+}
+
+#forum span.submitted a:after {
     content: '\A';
     white-space: pre;
+	/*background-color: fuchsia;*/
 }
 
 /* @end */

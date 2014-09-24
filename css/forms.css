@@ -62,7 +62,7 @@ form table .item-list ul {
 	font-size: 11px;
 	line-height: 12px;
 	margin: 0;
-	padding: 5px;
+	padding: 8px 5px 5px;
 }
 
 .form-checkboxes .form-item,
@@ -173,12 +173,13 @@ td.menu-disabled {
 	background-color: peachpuff;
 	margin: 5px 0 0;
 	padding: 5px 10px;
-	background-color: #DDDDDD;
-	color: #666666;
+	color: #333333;
+	background-color: #FFFFFF;
+	border: 1px solid #336699;
 }
 
 #cals-external-search-request-new-title-form #edit-submit:hover {
-	color: #EC1C24;
+	color: #CC6600;
 }
 
 /* @end */

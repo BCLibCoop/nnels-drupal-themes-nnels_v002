@@ -105,7 +105,7 @@
 
 /* @end*/
 
-/* @group faq-list*/
+/* @group faq-list (DEPRECIATED)*/
 
 .faq-list {
 	/*background-color: fuchsia;*/
@@ -183,9 +183,71 @@
 
 /* @end*/
 
-/* @group faq - NEW */
+/* @group help section */
 
-.faq-listing-block.landing {
+.help-recent-block {
+	/*background-color: orange;*/
+	float: left;
+	width: 98%;
+	margin: 0 0 15px;
+	padding: 10px;
+	border: 1px solid #336699;
+}
+
+.help-recent .view-list-ul {
+	/*background-color: pink;*/
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+.help-recent .view-list-ul li.views-row {
+	/*background-color: lemonchiffon;*/
+	float: left;
+	width: 98%;
+	margin: 0 0 5px;
+	padding: 10px;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+.help-recent .views-field-title-field {
+	/*background-color: lavender;*/
+	float: left;
+	width: 98%;
+	margin: 0 0 5px;
+	padding: 5px;
+	font: normal normal 16px/18px 'open_sans_condensedbold', sans-serif;
+	text-decoration: none;
+}
+
+.help-recent .views-field-body {
+	/*background-color: chartreuse;*/
+	float: left;
+	width: 98%;
+	margin: 0;
+	padding: 5px;
+}
+
+.help-recent .views-field-view-node {
+	/*background-color: teal;*/
+	float: left;
+	width: 98%;
+	margin: 0;
+	padding: 5px 20px 5px 5px;
+	text-align: right;
+}
+
+.help-recent .views-field-clone-node,
+.help-recent .views-field-edit-node {
+	/*background-color: chartreuse;*/
+	float: right;
+	margin: 5px;
+	padding: 5px;
+}
+
+.help-category-list {
 	/*background-color: orange;*/
 	float: left;
 	width: 98%;
@@ -193,45 +255,57 @@
 	padding: 0;
 }
 
-.faq-listing-block.secondary {
+.help-category-list .view-list-ul {
 	/*background-color: pink;*/
-	float: left;
-	width: 98%;
-	margin: 15px 0 0;
+	margin: 0;
 	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
 }
 
-.faq-listing-block.admin {
-	/*background-color: limegreen;*/
+.help-category-list .view-list-ul li.views-row {
+	/*background-color: lemonchiffon;*/
+	float: left;
+	width: 98%;
+	margin: 0 0 5px;
+	padding: 10px;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+.help-category-list .views-field-title-field {
+	/*background-color: lavender;*/
+	float: left;
+	width: 98%;
+	margin: 0 0 5px;
+	padding: 5px;
+	font: normal normal 16px/18px 'open_sans_condensedbold', sans-serif;
+	text-decoration: none;
+}
+
+.help-category-list .views-field-body {
+	/*background-color: chartreuse;*/
 	float: left;
 	width: 98%;
 	margin: 0;
-	padding: 0;
+	padding: 5px;
 }
 
-.faq-listing {
-	/*background-color: purple;*/
+.help-category-list .views-field-view-node {
+	/*background-color: teal;*/
 	float: left;
 	width: 98%;
 	margin: 0;
-	padding: 0;
+	padding: 5px 20px 5px 5px;
+	text-align: right;
 }
 
-.faq-listing .view-list-ul {
-	/*background-color: lawngreen;*/
-	float: left;
-	width: 98%;
-	margin: 0 0 0 10px;
-	padding: 0 0 0 20px;
-	list-style-type: decimal;
-}
-
-.faq-listing .view-list-ul li {
-	/*background-color: fuchsia;*/
-	float: left;
-	width: 98%;
-	margin: 0;
-	padding: 0 0 5px;
+.help-category-list .views-field-clone-node,
+.help-category-list .views-field-edit-node {
+	/*background-color: chartreuse;*/
+	float: right;
+	margin: 5px;
+	padding: 5px;
 }
 
 
@@ -1655,14 +1729,14 @@ span.daisy-icon-login {
 	margin: 30px 0 0;
 	margin: 0;
 	padding: 3px 5px;
-	color: #FFFFFF;
-	background-color: #666666;
+	color: #333333;
+	background-color: #FFFFFF;
 	border: 1px solid #336699;
 }
 
 .repo-item.available-formats .view-footer a:hover {
-	color: #EC1C24;
-	background-color: #BBBBBB;
+	color: #CC6600;
+	background-color: #EEEEEE;
 }
 
 

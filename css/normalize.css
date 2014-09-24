@@ -52,11 +52,9 @@ audio:not([controls]) {
 html {
 	font-size: 100%;
 	font-size: 14px;
-	/*Prevents iOS text size adjust*/
+	line-height: 20px;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
-	/* Establish a vertical rhythm. */
-	line-height: 24px;
 
 }
 
@@ -168,6 +166,15 @@ a:hover,
 a:active {
 	outline: 0;
 }
+
+.feed-icon {
+	/*background-color: maroon;*/
+	display: block;
+	margin: 5px;
+	padding: 5px;
+	clear: both;
+}
+
 
 /* @end */
 

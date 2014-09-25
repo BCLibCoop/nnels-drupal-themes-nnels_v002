@@ -32,7 +32,7 @@
 	$availability = $row->field_field_availability_status[0]['raw']['value'];
 	$file_id = $row->file_managed_field_data_field_s3_file_upload_fid;
 	
-	//new
+	//new ......
 	$format = '';
 	if(isset($row->field_field_file_format[0]['rendered']['#markup'])) {
 		$format = $row->field_field_file_format[0]['rendered']['#markup'];
